@@ -8,7 +8,7 @@ import time
 
 
 class Bot(webdriver.Chrome):
-    def __int__(self,driver_path = r"C:\Users\hp\PycharmProjects\Bot\chromedriver.exe"):
+    def __int__(self,driver_path = r"your chrome driver path"):
         self.driver_path = driver_path
         os.environ['PATH'] += self.driver_path
         super(Bot,self).__init__()
